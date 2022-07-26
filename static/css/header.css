@@ -1,0 +1,59 @@
+body, html {
+    margin: 0 0 0  0;
+}
+
+.section-s1 {
+    background-image: url("/static/img/pexels-photo-1.jpeg");
+    height: 700px;
+}
+
+
+#intro-example{
+    @media(min-width: 9929)
+}
+
+
+
+.header-primary-text{
+    color: white;
+    height: 100px;
+    background-color: rgb(55, 83, 0);
+    border: 2px rgb(228, 223, 233) outset;
+}
+
+
+.headline-header {
+    color: white;
+    padding: 200px 40px;
+    font-size: 30px;
+    text-align: center;
+}
+
+
+    /* Default height for small devices */
+#intro-example {
+    height: 400px;
+}
+
+
+.start-tutorial{
+    background-color: rgb(168, 41, 41);
+    height: 100px;
+    display: inline-flex;
+}
+
+
+
+.box-primary {
+    padding-bottom: 20px;
+    color: rgb(247, 240, 240);
+    border: 2px dotted;
+    margin-left: 500px;
+    margin-right: 500px;
+
+}
+
+.box-primary:hover{
+    background-color: green;
+    color: red;
+}
